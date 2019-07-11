@@ -1,0 +1,35 @@
+Java HotSpot(TM) 64-Bit Server VM (25.131-b11) for windows-amd64 JRE (1.8.0_131-b11), built on Mar 15 2017 01:23:53 by "java_re" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 8270312k(2896612k free), swap 16396776k(3566480k free)
+CommandLine flags: -XX:InitialHeapSize=131072000 -XX:MaxHeapSize=524288000 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseParallelGC 
+2019-07-11T22:00:30.122+0800: 15.781: [GC (Allocation Failure) [PSYoungGen: 32680K->5100K(37888K)] 32680K->17600K(123904K), 0.1633011 secs] [Times: user=0.09 sys=0.02, real=0.16 secs] 
+2019-07-11T22:00:58.608+0800: 44.131: [GC (Allocation Failure) [PSYoungGen: 37868K->5096K(37888K)] 50368K->45740K(123904K), 0.0670252 secs] [Times: user=0.03 sys=0.08, real=0.07 secs] 
+2019-07-11T22:01:27.303+0800: 72.826: [GC (Allocation Failure) [PSYoungGen: 37850K->5096K(37888K)] 78494K->74373K(123904K), 0.0104153 secs] [Times: user=0.05 sys=0.06, real=0.01 secs] 
+2019-07-11T22:01:27.313+0800: 72.837: [Full GC (Ergonomics) [PSYoungGen: 5096K->0K(37888K)] [ParOldGen: 69276K->74062K(143360K)] 74373K->74062K(181248K), [Metaspace: 9345K->9345K(1058816K)], 0.0313096 secs] [Times: user=0.20 sys=0.02, real=0.03 secs] 
+2019-07-11T22:01:56.456+0800: 101.979: [GC (Allocation Failure) [PSYoungGen: 32679K->5088K(37888K)] 106742K->103363K(181248K), 0.0078178 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2019-07-11T22:02:25.582+0800: 131.105: [GC (Allocation Failure) [PSYoungGen: 37767K->5088K(37376K)] 136042K->132375K(180736K), 0.0104723 secs] [Times: user=0.05 sys=0.05, real=0.01 secs] 
+2019-07-11T22:02:25.593+0800: 131.116: [Full GC (Ergonomics) [PSYoungGen: 5088K->0K(37376K)] [ParOldGen: 127286K->131889K(200192K)] 132375K->131889K(237568K), [Metaspace: 9377K->9377K(1058816K)], 0.0470058 secs] [Times: user=0.22 sys=0.02, real=0.05 secs] 
+2019-07-11T22:02:55.451+0800: 160.974: [GC (Allocation Failure) [PSYoungGen: 32184K->28892K(77312K)] 164074K->160789K(277504K), 0.0081781 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2019-07-11T22:03:23.624+0800: 189.147: [GC (Allocation Failure) [PSYoungGen: 60036K->47095K(77824K)] 191933K->188694K(278016K), 0.0157363 secs] [Times: user=0.02 sys=0.08, real=0.02 secs] 
+2019-07-11T22:03:51.329+0800: 216.852: [GC (Allocation Failure) [PSYoungGen: 77760K->56760K(87040K)] 219359K->216170K(287232K), 0.0207720 secs] [Times: user=0.05 sys=0.03, real=0.02 secs] 
+2019-07-11T22:04:18.627+0800: 244.150: [GC (Allocation Failure) [PSYoungGen: 86918K->56824K(86528K)] 246328K->243246K(286720K), 0.0207380 secs] [Times: user=0.13 sys=0.00, real=0.02 secs] 
+2019-07-11T22:04:18.647+0800: 244.170: [Full GC (Ergonomics) [PSYoungGen: 56824K->42911K(86528K)] [ParOldGen: 186421K->199916K(270336K)] 243246K->242827K(356864K), [Metaspace: 9403K->9403K(1058816K)], 0.0729029 secs] [Times: user=0.34 sys=0.00, real=0.07 secs] 
+2019-07-11T22:04:45.587+0800: 271.110: [GC (Allocation Failure) [PSYoungGen: 72605K->55768K(84992K)] 272521K->269595K(355328K), 0.0304948 secs] [Times: user=0.08 sys=0.05, real=0.03 secs] 
+2019-07-11T22:05:11.951+0800: 297.474: [GC (Allocation Failure) [PSYoungGen: 84952K->56828K(85504K)] 298779K->295875K(355840K), 0.0291788 secs] [Times: user=0.05 sys=0.00, real=0.03 secs] 
+2019-07-11T22:05:11.980+0800: 297.503: [Full GC (Ergonomics) [PSYoungGen: 56828K->24912K(85504K)] [ParOldGen: 239046K->270323K(339968K)] 295875K->295235K(425472K), [Metaspace: 9429K->9363K(1058816K)], 0.1100959 secs] [Times: user=0.38 sys=0.06, real=0.11 secs] 
+2019-07-11T22:05:36.992+0800: 322.515: [GC (Allocation Failure) [PSYoungGen: 53584K->49895K(83456K)] 323907K->320267K(423424K), 0.0121317 secs] [Times: user=0.13 sys=0.00, real=0.01 secs] 
+2019-07-11T22:06:02.349+0800: 347.872: [GC (Allocation Failure) [PSYoungGen: 78021K->56796K(84480K)] 348392K->345311K(424448K), 0.0215276 secs] [Times: user=0.11 sys=0.00, real=0.02 secs] 
+2019-07-11T22:06:27.067+0800: 372.590: [GC (Allocation Failure) [PSYoungGen: 84442K->56260K(83456K)] 372956K->370035K(423424K), 0.0216998 secs] [Times: user=0.13 sys=0.00, real=0.02 secs] 
+2019-07-11T22:06:27.089+0800: 372.612: [Full GC (Ergonomics) [PSYoungGen: 56260K->29604K(83456K)] [ParOldGen: 313774K->339953K(341504K)] 370035K->369557K(424960K), [Metaspace: 9392K->9392K(1058816K)], 0.0985414 secs] [Times: user=0.56 sys=0.03, real=0.10 secs] 
+2019-07-11T22:06:51.282+0800: 396.805: [Full GC (Ergonomics) [PSYoungGen: 56681K->52409K(83456K)] [ParOldGen: 339953K->341157K(341504K)] 396635K->393567K(424960K), [Metaspace: 9396K->9396K(1058816K)], 0.0742235 secs] [Times: user=0.28 sys=0.02, real=0.07 secs] 
+2019-07-11T22:06:51.557+0800: 397.080: [Full GC (Ergonomics) [PSYoungGen: 52639K->52609K(83456K)] [ParOldGen: 341157K->341157K(341504K)] 393797K->393766K(424960K), [Metaspace: 9396K->9396K(1058816K)], 0.0721462 secs] [Times: user=0.39 sys=0.00, real=0.07 secs] 
+2019-07-11T22:06:51.931+0800: 397.454: [Full GC (Ergonomics) [PSYoungGen: 52609K->52609K(83456K)] [ParOldGen: 341457K->341457K(341504K)] 394066K->394066K(424960K), [Metaspace: 9396K->9396K(1058816K)], 0.0080445 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2019-07-11T22:06:51.939+0800: 397.462: [Full GC (Allocation Failure) [PSYoungGen: 52609K->52609K(83456K)] [ParOldGen: 341457K->341409K(341504K)] 394066K->394018K(424960K), [Metaspace: 9396K->9303K(1058816K)], 0.0794705 secs] [Times: user=0.44 sys=0.02, real=0.08 secs] 
+Heap
+ PSYoungGen      total 83456K, used 52639K [0x00000000f5980000, 0x00000000fe380000, 0x0000000100000000)
+  eden space 27136K, 100% used [0x00000000f5980000,0x00000000f7400000,0x00000000f7400000)
+  from space 56320K, 45% used [0x00000000fac80000,0x00000000fc567ff0,0x00000000fe380000)
+  to   space 56832K, 0% used [0x00000000f7480000,0x00000000f7480000,0x00000000fac00000)
+ ParOldGen       total 341504K, used 341414K [0x00000000e0c00000, 0x00000000f5980000, 0x00000000f5980000)
+  object space 341504K, 99% used [0x00000000e0c00000,0x00000000f5969820,0x00000000f5980000)
+ Metaspace       used 9321K, capacity 9588K, committed 9984K, reserved 1058816K
+  class space    used 1070K, capacity 1151K, committed 1280K, reserved 1048576K

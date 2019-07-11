@@ -13,5 +13,13 @@ public class TestBuilderObject {
                 .weight(190)
                 .buidler();
         System.out.println(person);
+
+
+        Clazz clazz=new Clazz.Builder().setId(1601)
+                .setClzName("软件开发班")
+                .setTeacher("老杨")
+                .builder();
+
+        System.out.println(clazz);
     }
 }
